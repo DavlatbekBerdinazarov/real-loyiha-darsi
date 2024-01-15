@@ -1,0 +1,74 @@
+/* login */
+
+main{
+    display: flex;
+}
+
+.main-form{
+    width: 55vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form-container{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.main-form-container h3{
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px; 
+}
+
+.main-form-container > p{
+    color: var(--neutral);
+    font-family: Rubik;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; 
+}
+
+form input{
+    border: var(--neutral) 2px solid;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+}
+
+.sign-in {
+    border: var(--neutral) 2px solid;
+    width: 100%;
+    padding: 10px;
+    margin: 15px 0;
+    background-color: var(--primary);
+}
+
+.sign-in a{
+    color:white;
+    font-size: large;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+}    
+
+.account-title{
+    text-align: center;
+    color: var(--neutral);
+}
+
+.account-title span{
+    color: var(--primary);
+}
+
+
+.login-img img{
+    width: 45vw;
+    height: 100vh;
+}
+/* /login */
